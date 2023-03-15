@@ -16,7 +16,7 @@ body {
   position: relative;
 }
 
-.alrarmTime {
+.alarmTime {
   position: absolute;
   top: 5rem;
   display: flex;
