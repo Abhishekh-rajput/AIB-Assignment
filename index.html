@@ -9,6 +9,10 @@
     <title>Clock</title>
   </head>
   <body>
+    <div class="alrarmTime">
+      <input type="time" id="alarm-time" />
+      <button id="set-alram">Set Alarm</button>
+    </div>
     <div class="clock">
       <div class="right-stand"></div>
       <div class="left-stand"></div>
@@ -34,5 +38,15 @@
       <div class="number number11">11</div>
       <div class="number number12">12</div>
     </div>
+    <div class="timing">
+      <p id="alarm-set-time"></p>
+      <button id="reset">Reset</button>
+    </div>
+    <audio
+      src="audio.mp3"
+      autoplay="false"
+      id="audio"
+      style="display: none"
+    ></audio>
   </body>
 </html>
